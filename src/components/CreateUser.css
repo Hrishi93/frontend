@@ -1,0 +1,50 @@
+/* CreateUser.css */
+.create-user-container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.create-user-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.create-user-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-user-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.create-user-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.create-user-form button {
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.create-user-form button:hover {
+    background-color: #218838;
+}
+
+.create-user-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
